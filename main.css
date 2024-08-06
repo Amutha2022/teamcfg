@@ -1,0 +1,237 @@
+/* BODY SETTINGS */
+body {
+    background-color: #F8EEE7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.home {
+    background-image: url("group-of-women.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.newsletter {
+    background-image: url("laptop-woman.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+/* LOGO IN NAV BAR*/
+.img_logo {
+    max-width: 100%;
+    height: auto;
+}
+/* NAVBAR SETTINGS */
+nav {
+    background-color: #94618eee;
+}
+.navbar-toggler-icon {
+    color: white;
+}
+.navbar-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: semibold;
+    border-bottom: solid 5px;
+    padding: 5px;
+}
+nav a:hover {
+    border-bottom: none;
+}
+/* BOX WITH OVERLAY TEXT */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    max-width: 80%;
+}
+.centered {
+    color: white;
+    top: 15%;
+    left: 21%;
+    background-color: rgba(52, 50, 50, 0.7);
+    padding: 20px 30px;
+    border-radius: 25px;
+}
+.about-container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    max-width: 30%;
+    gap: 5%;
+}
+.top-news-container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    max-width: 30%;
+    gap: 5%;
+}
+.expert-container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    min-width: 35%;
+    max-width: 60%;
+    gap: 5%; 
+}
+.about-text {
+    color: white;
+    top: 15%;
+    left: 21%;
+    background-color: rgba(52, 50, 50, 0.7);
+    padding: 20px 30px;
+    border-radius: 25px;
+    flex: 1;
+}
+.about-text a {
+    text-decoration: none;
+    color: white;
+}
+.about-text a:hover {
+    text-decoration: underline;
+}
+.centered a {
+    text-decoration: none;
+    color: white;
+}
+.centered a:hover {
+    text-decoration: underline;
+}
+/* BODY TEXT */
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+h3{
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+strong {
+    color:#db90d2;
+}
+/* INDIVIDUAL BUTTON FORMATTING */
+button {
+    background-color: #94618E;
+    color: #F8EEE7;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    }
+.button-format {
+    background-color: #94618E;
+    color: #F8EEE7;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    }
+.subscribe-button {
+    background-color: #94618E;
+    color: #F8EEE7;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+button:hover {
+    background-color: rgb(52, 50, 50);
+    }
+.button a, .latest-work-button a {
+    text-decoration: none;
+    color: #F8EEE7;
+}
+/* EMAIL SIGN UP FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 10px;
+}
+.sign_up_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: rgba(52, 50, 50, 0.7);
+    padding: 20px 30px;
+    font-size: 25px;
+    border-radius: 25px;
+    max-width: 45%;
+}
+.form-check-label {
+    color: white;
+}
+.sign_up_button {
+    position: absolute;
+    top: 66%;
+    left: 21%;
+}
+.button-container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+/* VIDEO BACKGROUND */
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place the video behind other content   
+   */
+}
+/* FOOTER */
+footer {
+    display: flex;
+    color: #94618E;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
